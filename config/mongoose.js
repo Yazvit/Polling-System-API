@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/polling-app', {
+mongoose.connect('mongodb+srv://yazvits:zJ3YRyzVZH8z4gfL@atlascluster.zcabyj9.mongodb.net/pollingApi', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
